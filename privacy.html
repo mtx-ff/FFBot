@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="fa">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Privacy Policy | سیاست حفظ حریم خصوصی</title>
+  <style>
+    body {
+      font-family: 'Vazir', sans-serif;
+      background-color: #0f0f0f;
+      color: #f2f2f2;
+      line-height: 1.8;
+      padding: 20px;
+      max-width: 800px;
+      margin: auto;
+      direction: rtl;
+    }
+
+    .lang-switch {
+      text-align: left;
+      direction: ltr;
+      margin-bottom: 20px;
+    }
+
+    button {
+      padding: 6px 12px;
+      background-color: #00ffcc;
+      border: none;
+      color: #000;
+      font-weight: bold;
+      cursor: pointer;
+      border-radius: 5px;
+    }
+
+    h1 {
+      color: #00ffcc;
+      border-bottom: 2px solid #00ffcc;
+      padding-bottom: 10px;
+    }
+
+    h2 {
+      color: #ffcc00;
+    }
+
+    a {
+      color: #00ffff;
+    }
+
+    .footer {
+      margin-top: 40px;
+      border-top: 1px solid #333;
+      padding-top: 10px;
+      font-size: 14px;
+      color: #aaa;
+    }
+
+    .en {
+      display: none;
+      direction: ltr;
+      text-align: left;
+    }
+
+    .bot-info {
+      background: #1a1a1a;
+      padding: 10px;
+      margin-bottom: 20px;
+      border-radius: 8px;
+      border: 1px solid #333;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="lang-switch">
+    <button onclick="switchLang()">ENGLISH</button>
+  </div>
+
+<!-- Persian -->
+  <div class="fa">
+    <div class="bot-info">
+        این سند مربوط به ربات تلگرام : <strong><a href="https://t.me/FreeFireMTX_Bot" target="_blank">@FreeFireMTX_Bot</a></strong> می‌باشد.
+    </div>
+
+    <h1>سیاست حفظ حریم خصوصی</h1>
+    <p>ما به حریم خصوصی کاربران خود احترام می‌گذاریم و اطلاعات جمع‌آوری‌شده را به‌صورت امن نگهداری می‌کنیم.</p>
+
+    <h2>چه اطلاعاتی جمع‌آوری می‌شود ؟</h2>
+    <ul>
+      <li>آیدی عددی تلگرام شما</li>
+      <li>آیدی بازی فری فایر که ثبت می‌کنید</li>
+    </ul>
+
+    <h2>چطور استفاده می‌شود ؟</h2>
+    <p>این اطلاعات برای ارائه خدمات ربات، درخواست لایک و مابقی خدمات استفاده می‌شود. درخواست‌ها برای مدیر ارسال می‌گردد.</p>
+
+    <h2>آیا اطلاعات به اشتراک گذاشته می‌شود ؟</h2>
+    <p>خیر، هیچ اطلاعاتی با شخص یا سازمانی به اشتراک گذاشته نمی‌شود.</p>
+
+    <h2>تماس با ما</h2>
+    <p>در صورت سوال یا ارسال پیشنهادات به ما پیام دهید :</p>
+    <p><a href="https://t.me/im_mtx" target="_blank">@iM_MTX</a></p>
+
+    <div class="footer">نسخه 1.0 | تیر ۱۴۰۴</div>
+  </div>
+
+  <!-- English -->
+  <div class="en">
+    <div class="bot-info">
+      This document belongs to the Telegram bot : <strong><a href="https://t.me/FreeFireEN_Bot" target="_blank">@FreeFireEN_Bot</a></strong>
+    </div>
+
+    <h1>Privacy Policy</h1>
+    <p>We respect our users' privacy and store collected data securely.</p>
+
+    <h2>What data do we collect ?</h2>
+    <ul>
+      <li>Your Telegram numeric user ID</li>
+      <li>The Free Fire ID you register</li>
+    </ul>
+
+    <h2>How is the data used ?</h2>
+    <p>This information is used to provide bot services, like requests, and other services. Requests are sent to the admin.</p>
+
+    <h2>Is my data shared ?</h2>
+    <p>No, your data is never shared with any third parties.</p>
+
+    <h2>Contact Us</h2>
+    <p>If you have any questions or suggestions, please send us a message :</p>
+    <p><a href="https://t.me/iM_MTX" target="_blank">@iM_MTX</a></p>
+
+    <div class="footer">Version 1.0 | July 2025</div>
+  </div>
+
+  <script>
+    function switchLang() {
+      const fa = document.querySelector('.fa');
+      const en = document.querySelector('.en');
+      const btn = document.querySelector('button');
+
+      if (fa.style.display !== 'none') {
+        fa.style.display = 'none';
+        en.style.display = 'block';
+        document.body.style.direction = 'ltr';
+        btn.textContent = 'فارسی';
+      } else {
+        fa.style.display = 'block';
+        en.style.display = 'none';
+        document.body.style.direction = 'rtl';
+        btn.textContent = 'ENGLISH';
+      }
+    }
+  </script>
+
+</body>
+</html>
