@@ -4,7 +4,6 @@
 
 ## 🔗 Bot Information :
 - 🇮🇷 **Persian Bot :** [@FreeFireMTX_Bot](https://t.me/FreeFireMTX_Bot)
-- 🌐 **English Bot :** [@FreeFireEN_Bot](https://t.me/FreeFireEN_Bot)
 
 ## 📢 Related Channels :
 - [@MTX_FF](https://t.me/MTX_FF)
